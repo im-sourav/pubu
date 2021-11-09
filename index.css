@@ -46,22 +46,21 @@ body {
 }
 #content #coin #main {
   position: relative;
-  width: 100px;
-  height: 100px;
-  left: 20px;
+  width: 150px;
+  height: 150px;
   transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
   transition: all 0.2s;
   cursor: pointer;
   transform-style: preserve-3d;
-  transform: rotateX(180deg);
+  transform: rotateX(0deg);
 }
 .shadow {
   position: absolute;
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
   box-shadow: 0 0 10px #000000;
   border-radius: 100%;
-  left: 100px;
+  left: 73px;
 }
 #content #coin #main .side {
   position: absolute;
@@ -186,7 +185,7 @@ body {
   display: flex;
   align-items: center;
   color: #ffffff;
-  font-size: .9rem;
+  font-size: 1.4rem;
   letter-spacing: 3px;
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
