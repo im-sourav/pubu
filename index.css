@@ -24,7 +24,7 @@ body {
   grid-template-columns: 1fr 2fr 1fr;
   justify-content: center;
   align-items: center;
-  background: #067906;
+  background: #007bff;
   border-radius: 60px;
   margin-top: 10px;
   border: 1px solid #494949;
@@ -74,6 +74,7 @@ body {
   justify-content: center;
   align-items: center;
   border-radius: 100%;
+  overflow: hidden;
 }
 .button {
   position: relative;
@@ -95,7 +96,7 @@ body {
   justify-content: center;
   align-items: center;
   transition: 0.2s;
-  overflow: hidden;
+  overflow: hidden; 
   transform: translateY(200px);
 }
 .button {
@@ -167,6 +168,12 @@ body {
 
 .player {
   position: relative;
+  width: 120px;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
 }
 .p2 {
   transform: rotateX(180deg);
@@ -174,8 +181,11 @@ body {
 .player .wrapper {
   position: relative;
   width: 98%;
-  height: 90%;
+  height: 98%;
   filter: brightness(300%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
   overflow: hidden;
 }
 .player .wrapper .text {
@@ -183,6 +193,7 @@ body {
   width: 100%;
   height: 100%;
   display: flex;
+  justify-content: center;
   align-items: center;
   color: #ffffff;
   font-size: 1.4rem;
@@ -228,10 +239,10 @@ body {
 
 .player .wrapper .effect {
   position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
+  width: 98%;
+  height: 48%;
+  top: 25%;
+  left: 1%;
   overflow: hidden;
   mix-blend-mode: color-dodge;
 }
@@ -251,3 +262,4 @@ body {
     transform: translate(50%, 50%);
   }
 }
+
